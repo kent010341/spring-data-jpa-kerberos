@@ -31,7 +31,7 @@
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
-			<version>12.2.0.jre11</version>
+			<version>11.2.3.jre17</version>
 		</dependency>
 	</dependencies>
 
