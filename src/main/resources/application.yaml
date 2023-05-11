@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    properties:
+      hibernate.dialect: org.hibernate.dialect.SQLServerDialect
+  datasource:
+    url: jdbc:sqlserver://mssql.example.com:1433;databaseName=foo;encrypt=true;trustServerCertificate=true;integratedSecurity=true;authenticationScheme=JavaKerberos;
+    username: user@EXAMPLE.COM
+    password: p@ssWord
